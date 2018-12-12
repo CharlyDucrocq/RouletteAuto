@@ -1,1 +1,12 @@
-r
+Objectif: faire fonctionner le capteur de couleur.
+
+Deroulement:
+Un programme qui est bien écrit est trouvé, il peut détecter la couleur d'une pièce en face de lui et rendre les valeurs de couleur sous forme de RGB.
+
+Problèmes rencontrés:
+-Pour avoir la valeur de les autres couleurs, le programme doit détecter une pièce purement blanche au début du programme, ce qui est moins réalisable.
+-Le temps de durée pour une fois de détection est 4s, ce qui est un peu long.
+
+Solutions à tester:
+-Prédéfinir la valeur de blanc / prendre une pièce blanche et définir sa couleur comme la valeur purement blanche.
+-Réduire le temps de détection / ajouter un interrupteur pour arrêter les pièces avant de les détecter.

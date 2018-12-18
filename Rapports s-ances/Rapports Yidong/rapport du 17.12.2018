@@ -1,0 +1,15 @@
+Objectif: régler le programme du capteur de couleur.
+
+Deroulement:
+1.Essayer de diminuer le temps de détection.
+2.Essayer de prédéfinir la couleur blanche dans le programme.
+3.A partir de la valeur donnée en RGB, classer les couleurs.
+
+Problèmes rencontrés:
+- Quand le condition de détection est modifié, c'est-à-dire que dans des endroits où il y a plus ou moins de lumière, ou la couleur de récipient change, le valeur blanche qui doit être prédéfinie ne sont pas la même.  
+- La valeur de noir est faible, c'est-à-dire que elle n'a pas assze de carctéristique pour la extraire. 
+
+Résumé de la séance :
+- Arriver à diminuer le temps de durée jusqu'à 0.1s~0.2s.
+- La couleur blanche on peut la prédéfinir, mais faut aussi compter la condition extérieure ( la intensité de lumière, la couleur de récipient où les jetons sont insérés).
+- Pour le jeton rouge, vert, bleu et blanc, on peut les classer en fonction de leur caractéristique de valeur. Mais pour le jeton noir, la valeur RGB n'est pas assze petite et n'a pas toujours le même caractéristique. Peut-être on va le modifier physiquement si on n'a toujours pas une bonne solution.

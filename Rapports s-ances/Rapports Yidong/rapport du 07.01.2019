@@ -1,1 +1,15 @@
-1
+Objectif: constuire un modèle du système de triage
+
+Résultat: un modèle est construit ( voir dans RouletteAuto/Documents/Images/Système de Triage partie(3).jpg et RouletteAuto/Documents/Images/Système de Triage.png )
+
+Explication:
+(1): C'est l'endroit où le capteur de couleur se situe.
+
+(2): C'est le système de triage.
+- Ce système est constituées par 3 parties:
+      - Un servo-moteur, qui peut tourner le couloir en fonction de la couleur des jetons.
+      - Un couloir où les jetons passent.
+      - 5 récipient qui contiennent les jetons en fonction de ses couleur.
+      
+(3): C'est un interrupteur constitué d'engrenages.
+      -L'interrupteur va tourner pour bloquer les autres jetons quand un jeton est en train de distingué par le capteur de couleur et trié par le servo-moteur. Après il tourne dans le sens opposé pour faire entrer un autre jeton. 

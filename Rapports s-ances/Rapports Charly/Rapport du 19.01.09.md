@@ -19,7 +19,9 @@ La preparation du prototype a bien avancé. Il ne manque plus qu'un etage pour a
 
 Ajout post-fablab du 12/01:
 
-//// a completé ////
+La roue est "terminé", il ne manque plus qu'a faire les trou et coller les cale (afin de maintenir la bille vers le trou, j'utilise les triangle qui sont rester de la decoupe) que je ferais après quelque essai de peur de faire des erreurs irreversibe. 
+De plus, j'ai commandé et reçu des bille en plastique de 9 mm de diametre.
+Enfin, j'ai aussi decoupé un petit "crochet" qui permettra d'ejecter les bille.
 
 Ci-dessous les photos prise lors du fablab :
 

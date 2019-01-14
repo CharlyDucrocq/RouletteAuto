@@ -25,4 +25,5 @@ Enfin, j'ai aussi decoupé un petit "crochet" qui permettra d'ejecter les bille.
 
 Ci-dessous les photos prise lors du fablab :
 
-//// a ajouter ////
+![Decoupe](https://github.com/CharlyDucrocq/RouletteAuto/blob/master/Documents/Images/20190108_152826.jpg?raw=true)
+![Resultat](https://github.com/CharlyDucrocq/RouletteAuto/blob/master/Documents/Images/20190111_074810.jpg?raw=true)

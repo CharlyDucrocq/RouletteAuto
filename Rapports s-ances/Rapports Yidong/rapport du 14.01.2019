@@ -1,0 +1,64 @@
+Objectif: Essayer d'utiliser le servo-moteur "parallax continuous rotation" pour construire une partie de triage
+
+Explication: Ce servomoteur de modélisme se présente sous la forme d'un petit rectangle avec deux languettes sur les côtés pour la fixation et un axe décentré avec un bras (interchangeable) pour la liaison mécanique. On peut insérer 2 tiges dans les deux languettes afin de construire le système avec 2 tiges seulement au lieu de construire un tuyau entièrement. Par cette méthode, on a moins de demande de puissance du servo-moteur.
+
+Problème: Avec les codes donnés dans le cours et sur le site web, je n'arrive pas à le faire bouger en fonction des angles. Il fonctione plus comme un moteur normal.
+
+Code:
+(Source:https://www.carnetdumaker.net/articles/controler-un-servomoteur-avec-une-carte-arduino-genuino/)
+(1):
+ /* Inclut la lib Servo pour manipuler le servomoteur */
+#include <Servo.h>
+
+/* Créer un objet Servo pour contrôler le servomoteur */
+Servo monServomoteur;
+
+void setup() {
+    
+  // Attache le servomoteur à la broche D9
+  monServomoteur.attach(9);
+}
+
+void loop() {
+
+  // Fait bouger le bras de 0° à 180°
+  for (int position = 0; position <= 180; position++) {
+    monServomoteur.write(position);
+    delay(15);
+  }
+  
+  // Fait bouger le bras de 180° à 10°
+  for (int position = 180; position >= 0; position--) {
+    monServomoteur.write(position);
+    delay(15);
+  }
+}
+
+(2):
+/* Inclut la lib Servo pour manipuler le servomoteur */
+#include <Servo.h>
+
+/* Créer un objet Servo pour contrôler le servomoteur */
+Servo monServomoteur;
+
+void setup() {
+    
+  // Attache le servomoteur à la broche D9
+  monServomoteur.attach(9);
+}
+
+void loop() {
+
+  // Fait bouger le bras de 0° à 180°
+  for (unsigned long position = 1000; position <= 2000; position += 5) {
+    monServomoteur.writeMicroseconds(position);
+    delay(15);
+  }
+  
+  // Fait bouger le bras de 180° à 10°
+  for (unsigned long position = 2000; position >= 1000; position -= 5) {
+    monServomoteur.writeMicroseconds(position);
+    delay(15);
+  }
+}
+

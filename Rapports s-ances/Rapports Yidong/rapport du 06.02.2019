@@ -1,0 +1,46 @@
+- But de cette séance: D'après le résultat obtenu par le capteur de couleur, faire tourner le servomoteur du système de triage.
+
+- Explication: Chaque fois que le capteur de couleur distingue la couleur de la mise, il va donner une valeur pour cette mise et le servomoteur va prendre cette valeur pour aller à un angle spécifique.
+
+- Une partie de code:
+int color(){
+   g_flag = 0;
+   delay(500);
+   for(int i=0; i<3; i++){
+    var[i]=g_array[i]*g_SF[i];
+    Serial.println(int(var[i]));
+   }
+    if(var[1]>var[2] && var[1]>110 && var[0]<100){vert=vert+1;Serial.print("vert:");Serial.println(vert);return 0;}
+    if(300>var[0]>200 && 300>var[1]>200 && 300>var[2]>200){blanc=blanc + 1;Serial.print("blanc:");Serial.println(blanc);return 20;}
+    if(var[0]>100 && var[1]<80 && var[2]<80){rouge=rouge+1;Serial.print("rouge:");Serial.println(rouge);return 40;}
+    if(var[0]<90 && var[1]<90 && var[2]>100){bleu=bleu+1;Serial.print("bleu:");Serial.println(bleu);return 60;}
+    if(90>var[0] && 90>var[1] && 90>var[2]){noir=noir+1;Serial.print("noir:");Serial.println(noir);return 80;}
+    delay(100);}
+
+int triage(){
+  Serial.print("y:");Serial.println(y);
+  delay(500);
+  servo1.write(y);
+   delay(500);
+  angle=servo1.read();
+  Serial.print("angle:");Serial.println(angle);
+  delay(500);
+  return 1;}
+  
+  
+void loop(){
+   if(x=1){
+    y=color();
+    delay(500);
+    Serial.print("y:");Serial.println(y);
+    delay(500);
+    x=0;
+    }  
+  delay(500);
+  x=triage();
+  delay(500);
+  servo1.write(y);
+  Serial.print("x:");Serial.println(x);
+  }
+
+- Problèmes rencontrés: Chaque fois dans la fonction " triage()", le valeur "y" est bien changée mais l'action "servo1.write(y)" n'exécute pas. Les deux composants fonctionnent bien séparément mais le fonctionnement du servomoteur va perturber le capteur quand ils sont reliés dans une même carte. Quand le servomoteur fonctionne tout seul mais avec le capteur branché, les LEDs du capteur étincellent.

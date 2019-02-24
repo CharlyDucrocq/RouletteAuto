@@ -1,0 +1,11 @@
+Deroulement de la scéance :
+
+Ce que j'ai fait:
+
+  -En utilisant <TimerOne.h> pour le capteur de couleur et <ServoTimer2.h> pour le servomoteur, j'ai réussi à récupérer l'information obtenue par le capteur de couleur et la transmettre à un servomoteur.
+
+  -Remarque: Le servomoteur utilise <TimerOne> par défaut. Pour faire communiquer 2 composants différents, il faut utiliser Timer différent. (Ici on change le Timer pour le servomoteur.)
+
+Ce qu'il reste à faire:
+
+  -Suivre la même procédure pour 2 servomoteurs dans le système de redistribution.

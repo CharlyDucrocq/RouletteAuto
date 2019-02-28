@@ -15,7 +15,7 @@ Ci-dessous, les photo de l'avancée de l'assemblage post-séance :
 
 Ajout post-fablab :
 
-Touts les trous sont percés, toutes les cales sont placés, la roulette est terminer (physiquement parlant)! 
+- Touts les trous sont percés, toutes les cales sont placés, la roulette est terminer (physiquement parlant)! 
 
 
 Ci-dessous une photo de la roulette post-fablab :

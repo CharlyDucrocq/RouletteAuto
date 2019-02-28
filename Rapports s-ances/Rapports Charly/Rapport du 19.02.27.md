@@ -15,15 +15,15 @@ Ci-dessous, les photo de l'avancée de l'assemblage post-séance :
 
 Ajout post-fablab :
 
+Touts les trous sont percés, toutes les cales sont placés, la roulette est terminer (physiquement parlant)! 
 
------- a compléter ------
 
 Ci-dessous une photo de la roulette post-fablab :
 
-![Avancement fablab](--a completer--)
+![Avancement fablab](https://github.com/CharlyDucrocq/RouletteAuto/blob/master/Documents/Images/20190228_182800%5B1%5D.jpg?raw=true)
 
 Objectif pour la prochaine scéance :
 
 Etant la dernière scéance, le planning s'annonce serré. 
-La priorité sera de faire fonctionner un programme  qui nous retournera l'emplacement de la bille. 
+La priorité sera de faire fonctionner un programme qui nous retournera l'emplacement de la bille. 
 Pour ce qui est du pousseur, on verra si on a le temps... mais de ce que j'ai vu des différences attente/réalité des temps de production, cela semble compromis.

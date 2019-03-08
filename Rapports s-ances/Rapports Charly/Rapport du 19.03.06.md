@@ -1,7 +1,7 @@
 Deroulement de la scéance :
 
 - Maintenant que la construction est terminé je peux enfin tester mon programme !
-- Le programme est consultable ici : .....
+- Le programme est consultable ici : https://github.com/CharlyDucrocq/RouletteAuto/blob/master/Documents/Programmes/Roulette.ino
 - Le programme n'as pas fonctionner de suite. Premierement il fallait cabler le système. Après avoir perdu du temps sur de bête erreur de cablage, j'ai pu remarquer que les fonction attachInterrup ne fonctionner que sur les entrée 2 et 3 mais grâce a la bibliothèque PinChangeInt que monsieur masson que je remercie m'as conseiller, j'ai pu les associer au entrée analogique A0 à A4.
 - Mise à part cela et quelque modification sur la construction afin que les capteur d'aiment capte correcteur et quelque correction de programme, cela conclut cette scéance. Cependant, la salle nous a été mis a disposition le jeudi suivant, me permettant de continuer la programmation.
 - Après quelque test, la roue fourni des resultats de difference temporel entre la reponse du capteur d'aiment la plus recente et le capteur de proximité. 

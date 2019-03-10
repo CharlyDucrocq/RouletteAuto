@@ -10,7 +10,7 @@ Deroulement de la scéance :
 
 - A l'heure ou j'écris cette phrase, nous somme le lendemain, le vendredi, et je suis actuellement en train de realiser divers test de mon programme afin d'assimiler les résultat aux différentes cases numerotés.
 - Les resultats sont prometteurs, les ecarts entre les differents essais semblent correspondre sans trop d'écart d'un essai à l'autre sur une meme case.
-- Ci-contre un lien vers un tableau exel resumant ces mesures : ....
+- Ci-contre un lien vers un tableau exel resumant ces mesures : https://github.com/CharlyDucrocq/RouletteAuto/blob/master/Documents/Relev%C3%A9s_temps_Roulette.xlsx
 - Si tout se passe bien, le programme sera capable de renvoyer les bon numéro avant la présentation, si tel est le cas vous verrais ci dessous une MAJ affirmant cette reussite avec vidéo a l'appuie.
 - Mauvaise nouvelle : La courroie s'est mise à sauté pour une raisson que j'ignore alors que je n'ai pris que un tiers des mesures... Impossible de refaire fonctionner correctement le système... J'espère que changer la courroie ou la roue denté qui l'entraine suffira à résoudre le problème mais je ne sais pas si je pourrai avoir accés à la salle avec tout le matériel avant la présentation de mercredi. Je croise les doigts.
 
